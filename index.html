@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rachel Dooley Portfolio</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700;900&family=Source+Sans+Pro:wght@200;400;700&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/ad692869dc.js" crossorigin="anonymous"></script>
+    <!-- animate.css -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+    <body class="magicpattern">
+
+            <header>
+                <div class="logo">
+                    <a href="index.html">
+                        <img class="logo-img" src="images/logo.png" alt="logo"/>
+                    </a>
+                </div>
+                <!-- Navbar -->
+                <button class="mobile-nav-toggle" aria-controls="primary-navigation">
+                    <span class="hamburger"></span>
+                </button>
+                <nav>
+                    <ul id="primary-navigation" data-visible="false" class="primary-navigation">
+                        <li class="active">
+                            <a class="nav-link" href="#projects">work</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#about">about</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#contact">contact</a>
+                        </li>
+                        <li>
+                            <a class="nav-link resume-link" href="images/rachel-dooley-resume.pdf">resume</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="hero">
+                <div class="hero-left">
+                    <h1 class="animate__animated animate__fadeInLeft">Hello, I'm Rachel</h1>
+                    <p class="subtitle animate__animated animate__fadeInLeft animate__delay-1s">Frontend Web Developer</p>
+                    <p class="animate__animated animate__fadeInLeft animate__delay-2s">I'm passionate about delivering a delightful user experience, have a strong interest in AI integration, and a love of all things fashion related.</p>
+                    <button class="hero-btn animate__animated animate__jello animate__delay-3s">
+                        <a href="#projects" alt="projects">
+                            See My Work
+                        </a>
+                    </button>
+                </div>
+                <div class="hero-right">
+                <div class="bio-img-box">
+                    <div class="bio-img-box-inner">
+                        <img class="ai-img" src="images/ai-bio-img.jpg" alt="ai generated image" />
+                    </div>
+                </div>
+                </div>
+
+            </div>
+
+            <!-- Featured Projects Section -->
+            <section class="work" id="projects">
+                <h2>Featured Projects</h2>
+                   <div class="featured-projects ">
+                        <div class="project-container project-calculator reveal fade-left">
+                            <img class="project-img" src="images/body-shape-calculator.png" alt="project" />
+                                <div class="overlay">
+                                    <a href="project-body-calc.html" alt="project page link" target="_blank">
+                                        <div class="overlay-text">
+                                            Body Shape Calculator
+                                        <span class="overlay-subtext">A passion project to help women feel confident in their clothes, featuring an AI Stylist</span>
+                                        <button class="overlay-btn">Learn More</button>
+                                        </div>
+                                    </a>
+                                </div>
+                        </div>
+                        <div class="project-container project-thrasher reveal fade-down">
+                            <img class="project-img" src="images/thrasher-landing-small.png" alt="project" />
+                                <div class="overlay">
+                                    <a href="project-thrasher-landing.html" alt="project page link" target="_blank">
+                                        <div class="overlay-text">
+                                            Thrasher Landing
+                                            <span class="overlay-subtext">Responsive website for growing neighborhood, praised for functionality and design by residents. </span>
+                                            <button class="overlay-btn">Learn More</button>
+                                        </div>
+                                    </a>
+                                </div>
+                        </div>
+                        <div class="project-container project-lindas reveal fade-right">
+                            <img class="project-img" src="images/lindas-produce-small.png" alt="project" />
+                                <div class="overlay">
+                                    <a href="project-lindas-produce.html" alt="project page link" target="_blank">
+                                        <div class="overlay-text">
+                                            Linda's Produce
+                                            <span class="overlay-subtext">
+                                                Redesign of outdated website for local business. Improved branding, responsiveness, and enhanced user experience.
+                                            </span>
+                                            <button class="overlay-btn">Learn More</button>
+                                        </div>
+                                    </a>
+                                </div>
+                        </div>
+                        <div class="project-container project-chatbot reveal fade-up">
+                            <img class="project-img" src="images/pollyglot-min.png" alt="project" />
+                                <div class="overlay">
+                                    <a href="project-pollyglot.html" alt="project page link" target="_blank">
+                                        <div class="overlay-text">
+                                            Pollyglot AI Translator
+                                            <span class="overlay-subtext">
+                                                A language translator featuring user input and language selection. Powered by the OpenAI Api.
+                                            </span>
+                                            <button class="overlay-btn">Learn More</button>
+                                        </div>
+                                    </a>
+                                </div>
+                        </div>
+
+                   </div>
+                    <!-- End of Featured Projects Section -->
+
+                   <!-- Additional Projects Section -->
+                    <div class="class-projects">
+                        <!-- <h2>Additional Projects</h2> -->
+                        <button id="show-more-projects" class="show-more-projects-btn">Show More Projects</button>
+                        <div id="additional-projects" class="project-cards hidden">
+                            <!-- project card -->
+                            <div class="card">
+                                <div class="card-top">
+                                    <h3><a href="https://movie-watchlist-proj.netlify.app/">Movie Watchlist</a></h3>
+                                    <div class="card-links">
+                                        <a href="https://github.com/Rae1821/movie-watchlist" aria-label="GitHub Link" rel="noopener noreferrer" target="_blank">
+                                            <i class="fa-brands fa-github featured-project-github"></i>
+                                        </a>
+                                        <a href="https://movie-watchlist-proj.netlify.app/" aria-label="External site link" rel="noopener noreferrer" target="_blank">
+                                            <i class="fa-solid fa-up-right-from-square"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- bottom of card -->
+                                <p>Using the OMDB API you can search for your favorite movies and
+                                    add them to your watchlist. View in light or dark mode!
+                                </p>
+                                <ul>
+                                    <li>JavaScript</li>
+                                    <li>Movie API</li>
+                                    <li>HTML5</li>
+                                    <li>CSS3</li>
+                                    <li>Netlify</li>
+                                </ul>
+                            </div>
+                            <!-- project card -->
+                            <div class="card">
+                                <div class="card-top">
+                                    <h3><a href="https://quizzical-with-react.netlify.app/">Quizzical</a></h3>
+                                    <div class="card-links">
+                                        <a href="https://github.com/Rae1821/quizzical-react-app" aria-label="GitHub Link" rel="noopener noreferrer" target="_blank">
+                                            <i class="fa-brands fa-github featured-project-github"></i>
+                                        </a>
+                                        <a href="https://quizzical-with-react.netlify.app/" aria-label="External site link" rel="noopener noreferrer" target="_blank">
+                                            <i class="fa-solid fa-up-right-from-square"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- bottom of card -->
+                                <p>A fun trivia game built with React.js using the OTDB API. Put your
+                                    trivia skills to the test!</p>
+                                <ul>
+                                    <li>React</li>
+                                    <li>Trivia API</li>
+                                    <li>HTML5</li>
+                                    <li>CSS3</li>
+                                    <li>Netlify</li>
+                                </ul>
+                            </div>
+
+                            <!-- project card -->
+                            <div class="card">
+                                <div class="card-top">
+                                    <h3><a href="https://create-react-app-tenzies-game.netlify.app">Tenzies</a></h3>
+                                    <div class="card-links">
+                                        <a href="https://github.com/Rae1821/tenzies-game" aria-label="GitHub Link" rel="noopener noreferrer" target="_blank">
+                                            <i class="fa-brands fa-github featured-project-github"></i>
+                                        </a>
+                                        <a href="https://create-react-app-tenzies-game.netlify.app" aria-label="External site link" rel="noopener noreferrer" target="_blank">
+                                            <i class="fa-solid fa-up-right-from-square"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- bottom of card -->
+                                <p>Roll the dice and see how long it takes for you to get all 8 the same number. Fun confetti effect at the end when you win!</p>
+                                <ul>
+                                    <li>React</li>
+                                    <li>CSS grid</li>
+                                    <li>HTML5</li>
+                                    <li>Git</li>
+                                    <li>Netlify</li>
+                                </ul>
+                            </div>
+
+                            <!-- project card -->
+                            <div class="card">
+                                <div class="card-top">
+                                    <h3><a href="https://todays-goals.netlify.app/">Today's Goals</a></h3>
+                                    <div class="card-links">
+                                        <a href="https://github.com/Rae1821/todays-goals-app" aria-label="GitHub Link" rel="noopener noreferrer" target="_blank">
+                                            <i class="fa-brands fa-github featured-project-github"></i>
+                                        </a>
+                                        <a href="https://todays-goals.netlify.app/" aria-label="External site link" rel="noopener noreferrer" target="_blank">
+                                            <i class="fa-solid fa-up-right-from-square"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- bottom of card-->
+                                <p>Simple app to record your goals for the day - made using Firebase - project from Scrimba</p>
+                                <ul>
+                                    <li>JavaScript</li>
+                                    <li>Firebase</li>
+                                    <li>HTML5</li>
+                                    <li>CSS3</li>
+                                    <li>Netlify</li>
+                                </ul>
+                            </div>
+                        </div> <!-- end project cards-->
+                    </div> <!-- end class projects -->
+
+            </section><!-- end of work section -->
+
+
+            <!-- About Section -->
+            <section class="about" id="about">
+                <div class="row">
+                    <h2>About</h2>
+                    <div class="about__content ">
+                        <div class="about__text reveal fade-right">
+                            <p class="about__text__p">Hello again! I'm a solution-oriented frontend web developer based out of Chattanooga, TN. I am passionate about bringing digital products to life and creating online experiences that are delightful to use. I am constantly building and learning new technologies to continue to grow my skills in web development.
+                            </p>
+
+                            <p class="about__text__p">I spent 10+ years fine-tuning my communication and leadership skills with roles in customer service and higher education. My masters degree in Psychology fuels my curiosity and passion for AI and UX design. In my spare time I design + create custom garments and play superheros with my son.
+                            </p>
+                            <button class="btn btn-resume">
+                                <a href="images/rachel-dooley-resume.pdf" target="_blank" alt="resume">
+                                    My Resume
+                                </a>
+                            </button>
+
+                        </div>
+                        <div class="about__photo-container reveal fade-left">
+                            <img class="about__photo" src="images/bio-img-skirt.JPG" alt="photo of author" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+             <!-- Contact Section -->
+            <section class="contact" id="contact">
+                <div class="row">
+                    <div class="contact__items">
+                        <h2>Let's Connect</h2>
+                        <div class="contact__info">
+                            <p> I love meeting new people so if you'd like to discuss a freelance project,
+                            or if you just want to say hello 👋, you can reach me through email or on social media.
+                            Thanks for stopping by!
+                            </p>
+                        </div>
+                        <ul class="contact__social-links">
+                            <li class="contact__social-link-item">
+                                <a href="https://twitter.com/racheladooley" title="Link to Twitter Profile">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="contact__social-link-item">
+                                <a href="https://linkedin.com/in/racheladooley" title="link to LinkedIn profile">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                            </li>
+                            <li class="contact__social-link-item">
+                                <a href="https://github.com/rae1821" title="Link to GitHub profile">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </li>
+                            <li class="contact__social-link-item">
+                                <a href="mailto:rachelandersondooley@gmail.com" title="Link to email">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <footer>
+                <p> © 2023 | Coded with ☕️ + 🧡 by Rachel Dooley</p>
+            </footer>
+
+            <!-- Back To Top Button -->
+            <a href="#top" class="back-to-top" title="Back To Top">
+                <img src="images/arrow-up.svg" alt="Back to Top" class="back-to-top__image" />
+            </a>
+
+
+
+        <script defer src="js/main.js"></script>
+    </body>
+</html>

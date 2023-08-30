@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body Shape Calculator Project Page</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700;900&family=Source+Sans+Pro:wght@200;400;700&display=swap" rel="stylesheet">
+</head>
+<body class="project-body">
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img class="logo-img" src="images/logo-litebg-min.png" alt="logo"/>
+            </a>
+        </div>
+        <!-- Navbar -->
+        <button class="mobile-nav-toggle" aria-controls="primary-navigation">
+            <!-- <span class="sr-only">Menu</span> -->
+            <span class="hamburger"></span>
+        </button>
+        <nav>
+            <div class="line--left">
+                <div class="line--left--fill"></div>
+            </div>
+            <ul id="primary-navigation" data-visible="false" class="primary-navigation">
+                <li class="active">
+                    <a class="nav-link" href="index.html">home</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="index.html">work</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="index.html">about</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="index.html">contact</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="./images/rachel-dooley-resume.pdf">resume</a>
+                </li>
+            </ul>
+            <div class="line--right">
+                <div class="line--right--fill"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="project-page-container">
+            <div class="project-img-container">
+                <img class="project-img-lg" src="images/body-shape-calc-lg.png" alt="body shape calculator" />
+            </div>
+
+                <h1>The Body Shape Calculator</h1>
+
+
+                <div class="project-info">
+                    <div class="info-section">
+
+                        <h2 class="info-section-title">Overview</h2>
+                            <p>This is a passion project that I built to use on my fashion blog. It will allow users
+                                to calculate their body shape which in turn will help them learn how to effectively style
+                                their particular body shape. I am passionate about the positive impact that having good style
+                                can have on your self esteem and wanted to use my coding skills to create a tool that will
+                                help make uncovering your personal style a little bit easier.
+                            </p>
+
+                        <h2 class="info-section-title">Objective</h2>
+                        <p>The goal was to create a website that operates a bit like a landing page where the goal is to have the user
+                            click through and use the calculator to discover their body shape. The website should include reasons why the calculator
+                            is beneficial to use as well as an explanation of what the user needs to do to receive a successful calculation.
+                        </p>
+
+                        <p>This project is a work in progress. Future features will include:</p>
+                        <ul>
+                            <li>Links to articles about the users particular body shape</li>
+                            <li>An AI chatbot on hand to help explain and give guidance to the user about their body shape</li>
+                            <li>Links to shoppable clothing items that are tailored for that particular body shape so the user
+                                has some ideas on what they should purchase for their shape.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="info-breakdown">
+                            <button class="live-link">
+                                <a href="https://body-shape-calculator.netlify.app" alt="website link" target="_blank">
+                                    See it live
+                                </a>
+                            </button>
+                            <p><span>Role: </span>Web designer + developer</p>
+                            <ul>
+                                <li>UI design</li>
+                                <li>Front end development</li>
+                                <li>User testing + feedback</li>
+                            </ul>
+
+                            <p><span>Timeline: </span>Ongoing</p>
+                            <p><span>Deliverables: </span>Mobile responsive website with interactive calculator element using React.js</p>
+                            <p><span>Tools: </span>HTML5, CSS3, React, JavaScript, Git/GitHub, VSCode, Netlify</p>
+                    </div>
+
+                    <div class="results-section">
+                        <h2 class="info-section-title">Result + Value Provided</h2>
+                        <p>This is the first phase of this project and does not currently have any specific metrics to support the value other
+                            than some prelimnary user feedback that is very positive in the potential impact of the tool. Once I have additional metrics
+                            regarding the impact I will add them here.
+                        </p>
+                        <p> This project was built using React and was a great chance for me to work on my React skills and get practice using both
+                            the useState hooks and passing data between components using props. I am currently working on phase two which will include
+                            the integration of an AI chatbot using the OpenAI API so stay tuned for future updates.
+                        </p>
+                    </div>
+                </div>
+        </div>
+    </main>
+
+    <footer>
+        <p> © 2023 | Coded with ☕️ + 🧡 by Rachel Dooley</p>
+    </footer>
+
+    <!-- Back To Top Button -->
+    <a href="#top" class="back-to-top" title="Back To Top">
+        <img src="images/arrow-up.svg" alt="Back to Top" class="back-to-top__image" />
+    </a>
+
+
+    <script defer src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pollyglot Project Page</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700;900&family=Source+Sans+Pro:wght@200;400;700&display=swap" rel="stylesheet">
+</head>
+<body class="project-body">
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img class="logo-img" src="images/logo-litebg-min.png" alt="logo"/>
+            </a>
+        </div>
+        <!-- Navbar -->
+        <button class="mobile-nav-toggle" aria-controls="primary-navigation">
+            <!-- <span class="sr-only">Menu</span> -->
+            <span class="hamburger"></span>
+        </button>
+        <nav>
+            <ul id="primary-navigation" data-visible="false" class="primary-navigation">
+                <li class="active">
+                    <a class="nav-link" href="index.html">home</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="index.html">work</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="index.html">about</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="index.html">contact</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="images/rachel-dooley-resume.pdf">resume</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="project-page-container">
+            <div class="project-img-container">
+                <img class="project-img-lg" src="images/pollyglot-lg-min.png" alt="body shape calculator" />
+            </div>
+
+                <h1>Pollyglot Language Translator</h1>
+
+                <div class="project-info">
+                    <div class="info-section">
+
+                        <h2 class="info-section-title">Overview</h2>
+                            <p>This project was the final project for the AI Apps class at Scrimba.com
+                            </p>
+
+                        <h2 class="info-section-title">Objective</h2>
+                        <p>The goal was to create a language translator bot using the OpenAI Api. It was to include an input field for the user to type in the phrase they wanted translated and the ability to pick between three languages - Spanish, French, and Japanese.
+                        </p>
+
+                        <p> </p>
+                    </div>
+                    <div class="info-breakdown">
+                            <button class="live-link">
+                                <a href="https://pollyglot.netlify.app" alt="website link" target="_blank">
+                                    See it live
+                                </a>
+                            </button>
+                            <p><span>Role: </span>Developer</p>
+                            <ul>
+                                <li>Frontend development</li>
+                            </ul>
+
+                            <p><span>Timeline: </span>Two Weeks</p>
+                            <p><span>Deliverables: </span>Interactive language translator using the OpenAI API </p>
+                            <p><span>Tools: </span>HTML5, CSS3, JavaScript, OpenAI API, Netlify, Git, GitHub</p>
+                    </div>
+
+                    <div class="results-section">
+                        <h2 class="info-section-title">Result + Value Provided</h2>
+                            <p>
+                            This project was a chance to apply the skills learned throughout the AI Apps class to create a different kind of app while tapping into the OpenAI Api. I encountered some trouble using Netlify's serverless functions to hide my API key. I had never done that before so I spent time in Netlify's documentation learning about environment variables and how to use them, along with serverless functions, to keep your Api key from being exposed on the frontend when deploying your project.
+                            </p>
+                            <p>This was a fun project to finish and show my family and friends the power of the OpenAI API. I learned quite a bit about the importance of hiding your Api keys so they are not exposed on the frontend of your site - OpenAI will actually disable any Api keys that are exposed so it is important to hide them before deploying. I also worked with serverless functions for the first time which was a bit of a learning curve but gave me great practice at reading documentation.
+                            </p>
+                    </div>
+                </div>
+        </div>
+    </main>
+
+    <footer>
+        <p> © 2023 | Coded with ☕️ + 🧡 by Rachel Dooley</p>
+    </footer>
+
+    <!-- Back To Top Button -->
+    <a href="#top" class="back-to-top" title="Back To Top">
+        <img src="images/arrow-up.svg" alt="Back to Top" class="back-to-top__image" />
+    </a>
+
+
+
+    <script defer src="js/main.js"></script>
+</body>
+</html>
