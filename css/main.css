@@ -396,14 +396,13 @@ nav {
     margin: 0 auto;
 }
 
-
 .hero-left {
     width: 90%;
     margin: 1em auto 4em;
 }
 
 .hero-right {
-    display: block;
+    display: none;
     margin: 0 auto;
 }
 
@@ -512,6 +511,10 @@ nav {
 
     .hero-left > h1 {
         font-size: 3rem;
+    }
+
+    .hero-right {
+        display: block;
     }
 
 }
