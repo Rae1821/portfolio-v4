@@ -904,7 +904,7 @@ nav {
     height: 100%;
     border-radius: 4px;
     transition: box-shadow 200ms ease, transform 200ms ease;
-    box-shadow: 8px 5px var(--clr-green), 8px 5px 0 2px black;
+    box-shadow: 8px 5px var(--clr-turq), 8px 5px 0 2px black;
     position: relative;
 }
 
@@ -953,8 +953,6 @@ nav {
     }
 
     .about__photo-container {
-        /* flex: 1;
-        margin: 0 9rem 2em 0; */
         width: 350px;
         height: 500px;
     }
