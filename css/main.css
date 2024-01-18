@@ -392,7 +392,7 @@ nav {
     width: 90%;
     height: 90vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     margin: 0 auto;
 }
 
@@ -402,7 +402,6 @@ nav {
 }
 
 .hero-right {
-    display: none;
     margin: 0 auto;
 }
 
@@ -661,7 +660,7 @@ nav {
     .featured-projects {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
         justify-content: center;
         gap: 2em;
         margin: 0;
@@ -694,10 +693,16 @@ nav {
         grid-row: 2 / 3;
     }
 
-   .project-chatbot {
+   .project-fitness {
         grid-column: 2 / 3;
         grid-row: 2 / 3;
     }
+
+    .project-chatbot {
+        grid-column: 1 / 2;
+        grid-row: 3 / 3;
+    }
+
 
 }
 

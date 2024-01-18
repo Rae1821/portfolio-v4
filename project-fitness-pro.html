@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Pro Project Page</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700;900&family=Source+Sans+Pro:wght@200;400;700&display=swap" rel="stylesheet">
+</head>
+<body class="project-body">
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img class="logo-img" src="images/logo-litebg-min.png" alt="logo"/>
+            </a>
+        </div>
+        <!-- Navbar -->
+        <button class="mobile-nav-toggle" aria-controls="primary-navigation">
+            <!-- <span class="sr-only">Menu</span> -->
+            <span class="hamburger"></span>
+        </button>
+        <nav>
+            <ul id="primary-navigation" data-visible="false" class="primary-navigation">
+                <li class="active">
+                    <a class="nav-link" href="index.html">home</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="index.html">work</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="index.html">about</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="index.html">contact</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="images/rachel-dooley-resume.pdf">resume</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="project-page-container">
+            <div class="project-img-container">
+                <img class="project-img-lg" src="images/fitness-pro-lg-min.png" alt="fitness pro" />
+            </div>
+
+                <h1>Fitness Pro Workout Tracker</h1>
+
+                <div class="project-info">
+                    <div class="info-section">
+                        <h2 class="info-section-title">Overview</h2>
+                        <p>Fitness Pro is a workout tracker with full CRUD abilities. It features a minimal, clean design with an easy to use form that lets you create, update, and delete your workouts. On your personalized dashboard you can see all of the workouts you have created and sort them by type. At the top you can see the number of workouts you completed for the current year, the current and previous months, and the total number of workouts you have completed.
+                        </p>
+
+                        <h2 class="info-section-title">Objective</h2>
+                        <p>I wanted an easy simple app that I could use to keep track of my workouts. My workouts vary and I did not have one central place to keep track of them all. I was using the notes app on my phone but that was getting long and tedious so I decided to use my tech skills to create the workout tracker I was missing.
+                        </p>
+                    </div>
+                    <div class="info-breakdown">
+                        <button class="live-link">
+                            <a href="https://fitness-pro-nextjs.vercel.app" alt="website link" target="_blank">
+                                See it live
+                            </a>
+                        </button>
+                        <p><span>Role: </span>Web designer + developer</p>
+                        <ul>
+                            <li>UI design</li>
+                            <li>Front end development</li>
+                        </ul>
+
+                        <p><span>Timeline: </span>six weeks</p>
+                        <p><span>Deliverables: </span>Mobile responsive website with CRUD capabilities</p>
+                        <p><span>Tools: </span>Nextjs, TailwindCSS, MongoDB, Git/GitHub, Vercel, NextAuth</p>
+                    </div>
+
+                    <div class="results-section">
+                        <h2 class="info-section-title">Result + Value Provided</h2>
+                        <p>In creating the workout tracker I decided to incorporate different types of workouts one might complete based on my friends who all workout in different ways. That way the website would be beneficial to multiple users and not just those into strength training.
+                        </p>
+                    </div>
+                </div>
+        </div>
+    </main>
+
+    <footer>
+        <p> © 2023 | Coded with ☕️ + 🧡 by Rachel Dooley</p>
+    </footer>
+
+    <!-- Back To Top Button -->
+    <a href="#top" class="back-to-top" title="Back To Top">
+        <img src="images/arrow-up.svg" alt="Back to Top" class="back-to-top__image" />
+    </a>
+
+
+    <script defer src="js/main.js"></script>
+</body>
+</html>
